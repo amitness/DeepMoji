@@ -99,7 +99,7 @@ ENV/
 .noseids
 
 # DeepMoji weights
-*.hdf5
+# *.hdf5
 
 # local Keras
 keras/
