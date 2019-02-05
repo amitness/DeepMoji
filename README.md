@@ -30,7 +30,7 @@ This code is based on Keras, which requires either Theano or Tensorflow as the b
 
 ## Installation
 
-We assume that you're using [Python 2.7](https://www.python.org/downloads/) with [pip](https://pip.pypa.io/en/stable/installing/) installed. As a backend you need to install either [Theano (version 0.9+)](http://deeplearning.net/software/theano/install.html) or  [Tensorflow (version 1.3+)](https://www.tensorflow.org/install/). Once that's done you need to run the following inside the root directory to install the remaining dependencies:
+We assume that you're using [Python 3.6](https://www.python.org/downloads/) with [pip](https://pip.pypa.io/en/stable/installing/) installed. As a backend you need to install either [Theano (version 0.9+)](http://deeplearning.net/software/theano/install.html) or  [Tensorflow (version 1.3+)](https://www.tensorflow.org/install/). Once that's done you need to run the following inside the root directory to install the remaining dependencies:
   
 ```bash
 pip install -e .
@@ -64,7 +64,7 @@ nosetests -v -a '!slow'
 ```
 
 ## Disclaimer 
-This code has been tested to work with Python 2.7 on an Ubuntu 16.04 machine. It has not been optimized for efficiency, but should be fast enough for most purposes. We do not give any guarantees that there are no bugs - use the code on your own responsibility!
+This code has been tested to work with Python 3.6.4 on an Ubuntu machine. It has not been optimized for efficiency, but should be fast enough for most purposes. We do not give any guarantees that there are no bugs - use the code on your own responsibility!
 
 ## Contributions
 We welcome pull requests if you feel like something could be improved. You can also greatly help us by telling us how you felt when writing your most recent tweets. Just click [here](http://deepmoji.mit.edu/contribute/) to contribute.
