@@ -1,3 +1,9 @@
+This fork was made possible by Samuel Jefroykin
+
+He added the following things:
+1. python 3 support
+2. added the deep moji model to the repo 
+
 ### ------ Update September 2018 ------
 It's now been a year since DeepMoji was released and we're trying to understand how it's being used such that we can make improvements and provide you with better models in the future. 
 
