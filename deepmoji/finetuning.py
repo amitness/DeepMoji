@@ -54,7 +54,7 @@ def load_benchmark(path, vocab, extend_with=0):
             maxlen: Maximum length of an input.
     """
     # Pre-processing dataset
-    with open(path) as dataset:
+    with open(path, 'rb') as dataset:
         data = pickle.load(dataset)
 
     # Decode data
