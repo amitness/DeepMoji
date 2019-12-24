@@ -130,7 +130,9 @@ class SentenceTokenizer():
         return tokens
 
     def split_train_val_test(self, sentences, info_dicts,
-                             split_parameter=[0.7, 0.1, 0.2], extend_with=0):
+                             split_parameter=[0.7, 0.1, 0.2], 
+                             extend_with=0,
+                             random_state=None):
         """ Splits given sentences into three different datasets: training,
             validation and testing.
 
@@ -172,8 +174,8 @@ class SentenceTokenizer():
         else:
             # Split sentences and dicts
             ind = list(range(len(sentences)))
-            ind_train, ind_test = train_test_split(ind, test_size=split_parameter[2])
-            ind_train, ind_val = train_test_split(ind_train, test_size=split_parameter[1])
+            ind_train, ind_test = train_test_split(ind, test_size=split_parameter[2], random_state=random_state)
+            ind_train, ind_val = train_test_split(ind_train, test_size=split_parameter[1], random_state=random_state)
 
         # Map indices to data
         train = np.array([sentences[x] for x in ind_train])
