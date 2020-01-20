@@ -11,12 +11,11 @@ import math
 import pickle
 import numpy as np
 
-from keras.layers.wrappers import Bidirectional, TimeDistributed
-from sklearn.metrics import f1_score
-from keras.callbacks import ModelCheckpoint, EarlyStopping, CSVLogger
-from keras.optimizers import Adam
-from keras.utils.np_utils import to_categorical
-from keras.models import model_from_json
+from tensorflow.keras.layers import Bidirectional, TimeDistributed
+from tensorflow.keras.callbacks import ModelCheckpoint, EarlyStopping, CSVLogger
+from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.utils import to_categorical
+from tensorflow.keras.models import model_from_json
 
 from .global_variables import (
     FINETUNING_METHODS,
