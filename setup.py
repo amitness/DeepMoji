@@ -13,5 +13,6 @@ setup(
         'numpy',
         'scikit-learn',
         'text-unidecode',
+        'tensorflow==2.0.0',
     ],
 )
