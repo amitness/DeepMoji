@@ -3,10 +3,10 @@
 
 from __future__ import print_function, division
 
-from keras.models import Model, Sequential
-from keras.layers.merge import concatenate
-from keras.layers import Input, Bidirectional, Embedding, Dense, Dropout, SpatialDropout1D, LSTM, Activation
-from keras.regularizers import L1L2
+from tensorflow.keras.models import Model, Sequential
+from tensorflow.keras.layers import concatenate
+from tensorflow.keras.layers import Input, Bidirectional, Embedding, Dense, Dropout, SpatialDropout1D, LSTM, Activation
+from tensorflow.keras.regularizers import L1L2
 from .attlayer import AttentionWeightedAverage
 from .global_variables import NB_TOKENS, NB_EMOJI_CLASSES
 import numpy as np
