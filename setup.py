@@ -9,7 +9,6 @@ setup(
     install_requires=[
         'emoji==0.4.5',
         'h5py==2.8.0',
-        'Keras==2.3.1',
         'numpy',
         'scikit-learn',
         'text-unidecode',
