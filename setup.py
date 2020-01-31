@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='deepmoji',
-    version='1.0',
+    version='1.1',
     packages=['deepmoji'],
     description='DeepMoji library',
     include_package_data=True,
@@ -12,6 +12,6 @@ setup(
         'numpy',
         'scikit-learn',
         'text-unidecode',
-        'tensorflow==2.0.0',
+        'tensorflow==2.1.0',
     ],
 )
