@@ -219,7 +219,7 @@ def class_avg_tune_trainable(model, nb_classes, train, val, test, epoch_size,
         callbacks = finetuning_callbacks(checkpoint_weight_path, patience, verbose=2)
         steps = int(epoch_size / batch_size)
         model.fit_generator(train_gen, steps_per_epoch=steps,
-                            max_q_size=2, epochs=nb_epochs,
+                            max_queue_size=2, epochs=nb_epochs,
                             validation_data=(X_val_resamp, y_val_resamp),
                             callbacks=callbacks, verbose=0)
 
