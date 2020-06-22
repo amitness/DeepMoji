@@ -1,0 +1,65 @@
+index,unicode,emoji,label,ignore,sentiment
+0,U+1f602,😂,Face with Tears of Joy,,1
+1,U+1f612,😒,Unamused Face,,-1
+2,U+1f629,😩,Weary Face,,-1
+3,U+1f62d,😭,Loudly Crying Face,,-1
+4,U+1f60d,😍,Smiling Face with Heart-Shaped Eyes,,1
+5,U+1f614,😔,Pensive Face,,-1
+6,U+1f44c,👌,Ok Hand Sign,to be removed,0
+7,U+1f60a,😊,Smiling Face with Smiling Eyes,,1
+8,U+2764,❤,Heavy Black Heart,to be removed,1
+9,U+1f60f,😏,Smirking Face,,0
+10,U+1f601,😁,Grinning Face with Smiling Eyes,,1
+11,U+1f3b6,🎶,Multiple Musical Notes,to be removed,0
+12,U+1f633,😳,Flushed Face,,0
+13,U+1f4af,💯,Hundred Points Symbol,to be removed,0
+14,U+1f634,😴,Sleeping Face,to be removed,-1
+15,U+1f60c,😌,Relieved Face,,1
+16,U+263a,☺,White Smiling Face,,1
+17,U+1f64c,🙌,Person Raising Both Hands In Celebration,,1
+18,U+1f495,💕,Two Hearts,to be removed,1
+19,U+1f611,😑,Expressionless Face,to be removed,-1
+20,U+1f605,😅,Smiling Face with Open Mouth and Cold Sweat,,1
+21,U+1f64f,🙏,Person with Folded Hands,to be removed,0
+22,U+1f615,😕,Confused Face,,-1
+23,U+1f618,😘,Face Throwing A Kiss,to be removed,1
+24,U+2665,♥,Black Heart Suit,to be removed,1
+25,U+1f610,😐,Neutral Face,,-1
+26,U+1f481,💁,Information Desk Person,to be removed,0
+27,U+1f61e,😞,Disappointed Face,,-1
+28,U+1f648,🙈,See-No-Evil Monkey,to be removed,0
+29,U+1f62b,😫,Tired Face,,-1
+30,U+270c,✌,Victory Hand,,0
+31,U+1f60e,😎,Smiling Face with Sunglasses,,1
+32,U+1f621,😡,Red Angry Face,to be removed,-1
+33,U+1f44d,👍,Thumbs Up Sign,,1
+34,U+1f622,😢,Crying Face,,-1
+35,U+1f62a,😪,Sleepy Face,to be removed,-1
+36,U+1f60b,😋,Face Savouring Delicious Food,,1
+37,U+1f624,😤,Face with Look of Triumph,,-1
+38,U+270b,✋,Raised Hand,,0
+39,U+1f637,😷,Face with Medical Mask,to be removed,-1
+40,U+1f44f,👏,Clapping Hands Sign,,0
+41,U+1f440,👀,Eyes,to be removed,0
+42,U+1f52b,🔫,Pistol,to be removed,0
+43,U+1f623,😣,Persevering Face,,-1
+44,U+1f608,😈,Smiling Face with Horns,to be removed,0
+45,U+1f613,😓,Face with Cold Sweat,,-1
+46,U+1f494,💔,Broken Heart,to be removed,-1
+47,U+2661,♡,White Heart Suit,to be removed,1
+48,U+1f3a7,🎧,Headphone,to be removed,0
+49,U+1f64a,🙊,Speak-No-Evil Monkey,to be removed,0
+50,U+1f609,😉,Winking Face,to be removed,1
+51,U+1f480,💀,Skull,to be removed,-1
+52,U+1f616,😖,Confounded Face,,-1
+53,U+1f604,😄,Smiling Face with Open Mouth and Smiling Eyes,,1
+54,U+1f61c,😜,Face with Stuck-Out Tongue and Winking Eye,to be removed,1
+55,U+1f620,😠,Angry Face,,-1
+56,U+1f645,🙅,Face with No Good Gesture,to be removed,-1
+57,U+1f4aa,💪,Flexed Biceps,,0
+58,U+1f44a,👊,Fisted Hand Sign,,0
+59,U+1f49c,💜,Purple Heart,to be removed,1
+60,U+1f496,💖,Sparkling Heart,to be removed,1
+61,U+1f499,💙,Blue Heart,to be removed,1
+62,U+1f62c,😬,Grimacing Face,to be removed,0
+63,U+2728,✨,Sparkles,,0
