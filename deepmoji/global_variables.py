@@ -18,6 +18,7 @@ SPECIAL_TOKENS.extend(['{}BLANK_{}'.format(SPECIAL_PREFIX, i) for i in range(6, 
 ROOT_PATH = dirname(abspath(__file__))
 VOCAB_PATH = '{}/model/vocabulary.json'.format(ROOT_PATH)
 PRETRAINED_PATH = '{}/model/deepmoji_weights.hdf5'.format(ROOT_PATH)
+EMOJI_MAPPING_PATH = '{}/model/emoji_data.csv'.format(ROOT_PATH)
 
 WEIGHTS_DIR = tempfile.mkdtemp()
 
