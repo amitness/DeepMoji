@@ -4,7 +4,7 @@ from deepmoji.model_def import deepmoji_emojis
 from deepmoji.global_variables import PRETRAINED_PATH, VOCAB_PATH, EMOJI_MAPPING_PATH
 from deepmoji.sentence_tokenizer import SentenceTokenizer
 
-emoji_mapping = np.recfromcsv(EMOJI_MAPPING_PATH)
+emoji_mapping = np.recfromcsv(EMOJI_MAPPING_PATH, encoding='utf-8')
 
 def get_emoji(emoji_code):
     return emoji_mapping[emoji_code][2]
